@@ -42,7 +42,6 @@ CONFIG_SCHEMA = cv.All(
             cv.GenerateID(): cv.declare_id(TemplateText),
             cv.Optional(CONF_MAX_LENGTH): cv.int_,
             cv.Optional(CONF_MIN_LENGTH): cv.int_,
-            cv.Optional(CONF_PATTERN): cv.string,
             cv.Optional(CONF_LAMBDA): cv.returning_lambda,
             cv.Optional(CONF_OPTIMISTIC, default=False): cv.boolean,
             cv.Optional(CONF_SET_ACTION): automation.validate_automation(single=True),
