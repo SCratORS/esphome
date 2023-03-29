@@ -10,7 +10,6 @@ from esphome.const import (
     CONF_RESTORE_VALUE,
     CONF_MAX_LENGTH,
     CONF_MIN_LENGTH,
-    CONF_PATTERN,
 )
 from .. import template_ns
 
